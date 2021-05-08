@@ -13,6 +13,8 @@ const app = express();
 //   useFindAndModify: false,
 // });
 
+//sqlite: add knex sqlite3
+
 app.use(cors());
 const allowCrossDomain = function (req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
